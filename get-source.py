@@ -2,7 +2,7 @@ import requests
 
 for id in range(799931, 799932):
     url = 'https://zinro.net/m/log.php?id='+str(id)
-    filename = 'log-'+str(id)+".text"
+    filename = 'log-'+str(id)+".txt"
 
     urlData = requests.get(url).content
 
