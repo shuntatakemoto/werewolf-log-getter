@@ -14,4 +14,5 @@ if ret:
     b = eval(str2)
     n = len(b)
     for i in range(n):
-        print(i, b[i]["from_user"], "->", b[i]["to_user"])
+        print(i, b[i]["from_user"], "->", b[i]
+              ["to_user"], b[i]["job"], b[i]["message"])
